@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    display:flex;
+    justify-content:center;
+    align-items: flex-start;
+    font-family: 'Playfair Display', serif;
+    background-color: #F5F5DC;
+}
+
+.container-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+nav {
+    width: 100vw;
+    height: 100vw;
+}
+
+.nav-container {
+    width: 100vw;
+    height: 70px;
+    background-color: #c1fc74;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.content {
+    width: 100vw;
+    height: 60px;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: 100px;
+    height: 50px;
+    padding: 5px;
+    padding-left: 10px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.logo img {
+    width: auto;
+    height: 70px;
+    display:flex;
+    justify-content:center;
+    align-items: flex-start;
+}
+
+.buttons {
+    width: 800px;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+    margin: 0px 10px;
+}
+
+.buttons button {
+    background-color: #aaff0000;
+    padding-left: 10px;
+    border: 0;
+    padding-right: 15px;
+    margin: 0px 10px;
+}
+
+.buttons button:hover {
+    height: 40px;
+    border-radius: 20px;
+    background-color: #04AA6D;
+    color: white;
+  }
+
+.buttons button a {
+    color: #050505;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+form {
+    display: inline-block;
+    padding-left: 80px;
+}
+  
+form > input {
+    border: none;
+    padding-left: 20px;
+}
+
+form > button {
+    background: royalblue;
+    border: none;
+    color: #fff;
+    padding: 4px 10px;
+    border-radius: 4px;
+  }
+
+input[type="text" i] {
+    border: 0;
+    border-radius: 20px;
+
+}
+
+input[placeholder] {
+    padding: 10px;
+}
+
+.div-1 {
+    width: 100vw;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #F5F5DC;
+    background-image:url(https://i.ibb.co/jw7Ysmm/reciclar-simbolo.png);
+    background-repeat: no-repeat;
+    background-position-x: 750px;
+    background-position-y: center;
+    background-blend-mode:soft-light;
+}
+
+.div-1 .container-1 {
+    padding-left: 100px;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.div-1 .texto {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.div-1 .linha {
+    height: 50px;
+    border-left: 3px solid #91ff00;
+}
+
+.div-1 h1 {
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 10px;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.div-1 p {
+    width: 250px;
+    padding-top: 18px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+
+}
+
+.div-1 .container-2 {
+    padding-left: 800px;
+    display: flex;
+}
+
+.div-1 .container-2 .box {
+    width: 700px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #ebebbe;
+    border-radius: 20px;
+    box-shadow: 3px -4px 20px 0px #e2e2b7;
+}
+
+
+.div-1 .container-2 .box  h1 {
+    padding: 30px;
+    color: #000;
+    text-shadow: -2px -3px 3px #dcdc98;
+}
+
+.div-1 .container-2 .box ul {
+    width: 500px;
+}
+
+.div-1 .container-2 .box li {
+    padding: 40px;
+    font-size: 20px;
+}
+
+
+
+
+
+.div-2 {
+    width: 100vw;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #fff;
+}
+
+.div-2 .container-1 {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.div-2 .container-1 .texto {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.div-2 .container-1 .linha {
+    height: 50px;
+    border-left: 3px solid #91ff00;
+}
+
+.div-2 .container-1 h1 {
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 10px;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.div-2 .container-1 p {
+    width: 250px;
+    padding-top: 18px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+.div-2 .container-2 {
+    display: flex;
+    padding: 30px;
+}
+
+.div-2 .container-2 ul {
+    width: 300px;
+    padding-top: 78px;
+    padding-left: 50px;
+}
+
+.div-2 .container-2 li {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+.div-2 .container-3 {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 75px;
+    padding-left: 200px;
+}
+
+.div-2 .container-3 .titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.div-2 .container-3 .titulo h1 {
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 10px;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    text-transform: uppercase
+}
+
+.div-2 .container-3 .linha {
+    height: 50px;
+    border-left: 3px solid #91ff00;
+}
+
+.div-2 .container-3 .texto {
+    padding-left: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.div-2 .container-3 .texto ul {
+    padding-top: 18px;
+    padding-left: 20px;
+}
+
+.div-2 .container-3 .texto li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+footer .creditos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 50px;
+    background-color: #bafe61;
+}
+
+
+
