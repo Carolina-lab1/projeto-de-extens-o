@@ -140,12 +140,7 @@ input[placeholder] {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    background-color: #F5F5DC;
-    background-image:url(https://i.ibb.co/jw7Ysmm/reciclar-simbolo.png);
-    background-repeat: no-repeat;
-    background-position-x: 750px;
-    background-position-y: center;
-    background-blend-mode:soft-light;
+
 }
 
 .div-1 .container-1 {
@@ -198,7 +193,7 @@ input[placeholder] {
 }
 
 .div-1 .container-2 {
-    padding-left: 800px;
+    padding-left: 450px;
     display: flex;
 }
 
@@ -261,7 +256,13 @@ input[placeholder] {
 }
 
 .div-2 .container-1 .linha {
-    height: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    height: 35px;
     border-left: 3px solid #91ff00;
 }
 
@@ -272,7 +273,7 @@ input[placeholder] {
     align-items: center;
     flex-direction: column;
     padding-left: 10px;
-    font-size: 40px;
+    font-size: 35px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 700;
     text-transform: uppercase;
@@ -293,12 +294,14 @@ input[placeholder] {
 
 .div-2 .container-2 {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
     padding: 30px;
 }
 
 .div-2 .container-2 ul {
     width: 300px;
-    padding-top: 78px;
     padding-left: 50px;
 }
 
@@ -316,7 +319,7 @@ input[placeholder] {
     justify-content: space-evenly;
     flex-wrap: wrap;
     padding-top: 75px;
-    padding-left: 200px;
+
 }
 
 .div-2 .container-3 .titulo {
@@ -372,6 +375,3 @@ footer .creditos {
     height: 50px;
     background-color: #bafe61;
 }
-
-
-
